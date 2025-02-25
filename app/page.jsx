@@ -32,7 +32,7 @@ function App() {
 
       {/* Footer */}
       <p className="text-sm mt-6 text-gray-400">
-        Made with ❤️ by <a href="#" className="text-blue-400 underline">USMAN KHAN</a>
+        Made with ❤️ by <a href="https://www.facebook.com/usmankhan.786.facebook" className="text-blue-400 underline">USMAN KHAN</a>
       </p>
 
     </div>
