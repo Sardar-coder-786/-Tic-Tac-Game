@@ -1,0 +1,54 @@
+{
+    "questions": [
+        {
+            "question": "What is the capital of France?",
+            "options": ["Paris", "Berlin", "Madrid", "London"],
+            "answer": "Paris"
+        },
+        {
+            "question": "Who were the first climbers to successfully reach the summit of Mount Everest?",
+            "options": ["Edmund Hillary & Tenzing Norgay", "Reinhold Messner & Peter Habeler", "George Mallory & Andrew Irvine", "Alex Honnold & Tommy Caldwell"],
+            "answer": "Edmund Hillary & Tenzing Norgay"
+        },
+        {
+            "question": "Who was the first African American woman to win a Nobel Prize?",
+            "options": ["Toni Morrison", "Maya Angelou", "Rosa Parks", "Oprah Winfrey"],
+            "answer": "Toni Morrison"
+        },
+        {
+            "question": "Which is the largest planet in our Solar System?",
+            "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+            "answer": "Jupiter"
+        },
+        {
+            "question": "What is the chemical symbol for gold?",
+            "options": ["Au", "Ag", "Fe", "Pb"],
+            "answer": "Au"
+        },
+        {
+            "question": "What is the capital of France?",
+            "options": ["Paris", "Berlin", "Madrid", "London"],
+            "answer": "Paris"
+        },
+        {
+            "question": "Who were the first climbers to successfully reach the summit of Mount Everest?",
+            "options": ["Edmund Hillary & Tenzing Norgay", "Reinhold Messner & Peter Habeler", "George Mallory & Andrew Irvine", "Alex Honnold & Tommy Caldwell"],
+            "answer": "Edmund Hillary & Tenzing Norgay"
+        },
+        {
+            "question": "Who was the first African American woman to win a Nobel Prize?",
+            "options": ["Toni Morrison", "Maya Angelou", "Rosa Parks", "Oprah Winfrey"],
+            "answer": "Toni Morrison"
+        },
+        {
+            "question": "Which is the largest planet in our Solar System?",
+            "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+            "answer": "Jupiter"
+        },
+        {
+            "question": "What is the chemical symbol for gold?",
+            "options": ["Au", "Ag", "Fe", "Pb"],
+            "answer": "Au"
+        }
+    ]
+}
