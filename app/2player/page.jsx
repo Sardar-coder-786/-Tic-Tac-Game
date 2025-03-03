@@ -8,7 +8,7 @@ function App() {
   let [value, setvalue] = useState(["", "", "", "", "", "", "", "", ""]);
   let [winner, setWinner] = useState("");
   let [winningCells, setWinningCells] = useState([]);
-  
+
   // handle click event to mark the cell as X or O
   let handleValue = (index) => {
     if (value[index] === "" && winner === "") {
@@ -22,15 +22,27 @@ function App() {
   };
   // winning check
   let checkWinner = () => {
-    winnerPets.forEach((pet) => {
-      if (value[pet[0]] !== "" && value[pet[0]] === value[pet[1]] && value[pet[1]] === value[pet[2]]) {
-        setWinner(value[pet[0]] + " is the winner! 🎉");
-        setWinningCells(pet);
-      } else if (value.every((val) => val !== "" && winner === "")) {
+    for (let i = 0; i < winnerPets.length; i++) {
+      let [a, b, c] = winnerPets[i];
+      if (value[a] !== "" && value[a] === value[b] && value[b] === value[c]) {
+        setWinner(value[a] + " is the winner! 🎉");
+        setWinningCells(winnerPets[i]);
+        break;
+      } if (value.every((val) => val !== "" && winner === "")) {
         setWinner("It's a draw! 🤝 Try again!");
       }
-    });
-  };
+    }
+  }
+  // let checkWinner = () => {
+  //   winnerPets.forEach((pet) => {
+  //     if (value[pet[0]] !== "" && value[pet[0]] === value[pet[1]] && value[pet[1]] === value[pet[2]]) {
+  //       setWinner(value[pet[0]] + " is the winner! 🎉");
+  //       setWinningCells(pet);
+  //     } else if (value.every((val) => val !== "" && winner === "")) {
+  //       setWinner("It's a draw! 🤝 Try again!");
+  //     }
+  //   });
+  // };
   // useEffect to check winner after each move
   useEffect(() => {
     checkWinner();
@@ -55,7 +67,7 @@ function App() {
       </h2>
       {/* Game Board */}
       <div className="grid grid-cols-3 gap-4 bg-gray-800/50 p-5 rounded-2xl shadow-xl backdrop-blur-md">
-      {/* buttons */}
+        {/* buttons */}
         {value.map((val, index) => (
           <button
             key={index}
