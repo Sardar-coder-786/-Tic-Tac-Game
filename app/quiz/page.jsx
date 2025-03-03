@@ -60,6 +60,10 @@ function Quiz() {
                     </div>
                 </div>
             )}
+            <h3 className="text-lg font-semibold text-gray-300 bg-gray-800 px-4 py-2 mt-4 rounded-md shadow-md">
+                {currentQuestionIndex + 1} of {questions.length} Questions
+            </h3>
+
             <FbLink />
         </div>
     );
