@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import FbLink from "../component/fblink";
 
 function App() {
   let [turnO, setturnO] = useState(true);
@@ -86,7 +85,9 @@ function App() {
         🔄 Restart Game
       </button>
       {/* Footer */}
-      <FbLink/>
+      <p className="text-sm mt-6 text-gray-400">
+        Made with ❤️ by <Link href="https://www.facebook.com/usmankhan.786.facebook" className="text-blue-400 underline">USMAN KHAN</Link>
+      </p>
     </div>
   );
 }
