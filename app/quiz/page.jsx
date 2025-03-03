@@ -52,6 +52,7 @@ function Quiz() {
                             onClick={() => {
                                 setcurrentIndex(0);
                                 setScore(0);
+                                setAnswer([]);
                             }}
                             className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-md transition duration-300 ease-in-out"
                         >
@@ -59,7 +60,7 @@ function Quiz() {
                         </button>
                         {/* detail*/}
                         
-                        
+
                         {/* home link */}
                         <HomeLink />
                     </div>
