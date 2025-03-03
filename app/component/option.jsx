@@ -8,7 +8,7 @@ function Option({ question, setAnswer, answer }) {
                 const isSelected = answer === option;
 
                 return (
-                    <button onClick={() => setAnswer(option)}
+                    <button onClick={() => setAnswer((prev) => [...prev, option])}
                         key={index}
                         disabled={answer}
                         className={`border-2 p-3 rounded-md transition duration-300 ease-in-out text-lg font-medium
