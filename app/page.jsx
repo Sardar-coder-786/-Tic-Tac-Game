@@ -30,7 +30,7 @@ function App() {
         <div className="border-2 border-gray-600 rounded-2xl p-6 bg-gray-800/50 shadow-xl backdrop-blur-md transition-all duration-300 hover:scale-105 hover:border-red-400">
           <h1 className="text-2xl font-semibold text-gray-200 mb-3">��� Quiz Game</h1>
           <Link href="/quiz">
-            <img src="quiz.png" alt="Quiz Game" className="h-40 w-44 object-cover rounded-lg transition-all duration-300 hover:shadow-lg hover:scale-105"/>
+            <img src="Quiz.png" alt="Quiz Game" className="h-40 w-44 object-cover rounded-lg transition-all duration-300 hover:shadow-lg hover:scale-105"/>
           </Link>
         </div>
 
