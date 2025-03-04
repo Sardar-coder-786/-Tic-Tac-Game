@@ -23,9 +23,13 @@ function Quiz() {
 
             {/* Check if quiz is still ongoing */}
             {currentIndex < questions.length ? (
+
                 <Before questions={questions} answer={answer} setAnswer={setAnswer} currentIndex={currentIndex} setcurrentIndex ={setcurrentIndex} score={score} setScore={setScore} />
+
             ) : (
+
                 <After questions={questions} answer={answer} setAnswer={setAnswer} currentIndex={currentIndex} setcurrentIndex={setcurrentIndex} score={score} setScore={setScore} />
+                
             )}
 
             {/* Facebook link component */}
